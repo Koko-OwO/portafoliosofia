@@ -1,0 +1,253 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+  
+    font-family: 'Arial', sans-serif;
+}
+
+nav {
+    width: 100%;
+  
+    height: 10rem;
+}
+
+
+
+header {
+    width: 100%;
+    
+    
+    
+}
+.logo {
+    width: 15rem;
+    
+}
+
+
+.navbar-toggler {
+    border: none;
+   scale: 170%;
+}
+
+.navbar-toggler:hover {
+    zoom: 150%;
+    border: none;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    position: relative;
+}
+
+nav a {
+    color: rgb(4, 248, 36);
+    text-decoration: none;
+    font-size: 18px;
+  
+   
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+
+.offcanvas-body {
+    background: #e2568c;
+    border-radius: 5px;
+    backdrop-filter: blur (1px);
+}
+
+.sec1 {
+     background-image: url(../img/color.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    // background: linear-gradient(to right, #f72585, #ed867b, #eda846);
+    color: #fff;
+    text-align: left;
+    background-attachment: fixed;
+    
+    position: center;
+
+
+}
+.sec2 {
+    background-image: url(../img/color2.jpg);
+   width: 100%;
+   height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   // background: linear-gradient(to right, #f72585, #ed867b, #eda846);
+   color: #fff;
+   text-align: left;
+   background-attachment: fixed;
+   
+   position: center;
+
+
+}
+
+.sec3 {
+    background-image: url(../img/gato1.png);
+   width: 100%;
+   height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   // background: linear-gradient(to right, #f72585, #ed867b, #eda846);
+   color: #fff;
+   text-align: left;
+   background-attachment: fixed;
+   
+   position: center;
+
+
+}
+.sec4 {
+    background-image: url(../img/gato2.jpg);
+   width: 100%;
+   height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   // background: linear-gradient(to right, #f72585, #ed867b, #eda846);
+   color: #fff;
+   text-align: left;
+   background-attachment: fixed;
+   
+   position: center;
+
+
+}
+
+.project {
+    padding: 300px;
+    margin-bottom: 20px;
+    //background-color: #f5f5f5;
+    border-radius: px;
+    text-align: center;
+}
+
+.project h3 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.project p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Estilos para el botón "Ver proyecto" */
+.project a {
+    display: inline-block;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #ccc;
+
+    text-decoration: none;
+    margin-top: 15px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+.project a:hover {
+    background-color: #1e5aa7;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #3c90e6;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+a {
+    
+    border: none !important;
+}
+
+
+
+.servicioss{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:40rem;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contac {
+    text-align: left;
+    padding: 2rem;
+}
+
+.text1 {
+    width: 50%;
+}
+
+h3 {
+    a {
+        margin: 1rem;
+    }
+}
+
+
+.pro {
+    font-size: 2rem;
+}
+
+.servicioss {
+    font-size: 1rem;
+}
+
+.what {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    background-color: green;
+    bottom: 2rem;
+    left: 91.5%;
+    border-radius:40%;
+    transition: .5s;
+    .no{
+        display: none;
+        transition: 1s;
+    }
+}
+
+.what:hover {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    background-color: black;
+    bottom: 2rem;
+    left: 91.5%;
+    border-radius:40%;
+    transition: .5s;
+
+    .normi{
+        display: none;
+        transition: 1s;
+    }
+    .no {
+        display: flex;
+        transition: 1s;
+    }
+}
