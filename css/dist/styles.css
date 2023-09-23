@@ -7,6 +7,7 @@
 
 body {
   font-family: "Arial", sans-serif;
+  color: white;
 }
 
 nav {
@@ -20,6 +21,10 @@ header {
 
 .logo {
   width: 15rem;
+}
+
+#servicios {
+  background-color: #ed867b;
 }
 
 .navbar-toggler {
@@ -139,10 +144,6 @@ nav a {
   transition: background-color 0.3s ease;
 }
 
-.project a:hover {
-  background-color: #1e5aa7;
-}
-
 /* Estilos para el pie de página */
 footer {
   background-color: #3c90e6;
@@ -217,4 +218,32 @@ h3 a {
 .what:hover .no {
   display: flex;
   transition: 1s;
+}
+
+.unos {
+  background-image: url(../img/carousel1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.doss {
+  background-image: url(../img/carousel.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.tress {
+  background-image: url(../img/carousel2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.cuatross {
+  background-image: url(../img/carousel1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
