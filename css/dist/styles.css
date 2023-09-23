@@ -246,3 +246,32 @@ h3 a {
   background-size: cover;
   background-position: center;
 }
+
+.foto {
+  width: 700px;
+  height: 700px;
+  background-image: url(../img/foto.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: black;
+  border-radius: 50%;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  animation: 3s cubic-bezier(0.25, 1, 0.3, 1) circle-in-hesitate both;
+}
+
+@keyframes circle-in-hesitate {
+  0% {
+    clip-path: circle(0%);
+  }
+  20% {
+    clip-path: circle(20%);
+  }
+  100% {
+    clip-path: circle(125%);
+  }
+}
+.test {
+  text-align: left;
+}
